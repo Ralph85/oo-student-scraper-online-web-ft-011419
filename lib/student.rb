@@ -15,7 +15,6 @@ student_hash = {
   def initialize(student_hash)
     student_hash.each do |k, v|
       self.k = v
-      self
     end
   end
 
