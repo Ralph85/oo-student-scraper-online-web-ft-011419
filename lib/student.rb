@@ -32,6 +32,5 @@ student_hash = {
 
   def self.all
     self.all.each do
-
   end
 end
