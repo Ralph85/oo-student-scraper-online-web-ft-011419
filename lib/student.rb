@@ -31,7 +31,6 @@ student_hash = {
   end
 
   def self.all
-    self.each do |r, s|
-      send("#{r}=", s)
+
   end
 end
