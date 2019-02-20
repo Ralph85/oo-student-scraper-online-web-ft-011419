@@ -15,6 +15,7 @@ student_hash = {
   def initialize(student_hash)
     student_hash.each do |k, v|
       send("#{k}=", v)
+      @@all << self
     end
   end
 
