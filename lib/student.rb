@@ -31,6 +31,7 @@ student_hash = {
   end
 
   def self.all
-
+    @@all
+    puts @@all
   end
 end
