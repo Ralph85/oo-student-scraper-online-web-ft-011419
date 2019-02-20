@@ -25,6 +25,9 @@ student_hash = {
   end
 
   def add_student_attributes(attributes_hash)
+    add_student_attributes.each do |k, v|
+      send("#{k}=", v)
+      @@all << self
 
   end
 
